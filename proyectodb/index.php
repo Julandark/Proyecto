@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Bienvenido al aplicativo web pyp</title>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Videito</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php require 'partials/header.php' ?>
-     
-    <h1>Inicia sesion o registrate :)</h1>
-
-    <a href="login/login.php">Login</a> or
-    <a href="registro/registro.php">Registrate</a>
+    <header>
+        <div class="overlay"></div>
+        <div class="absolute ">
+            <h1>PROYECTO P&P</h1>
+        </div>
+        <video onloadedmetadata="this.muted=true"autoplay loop>
+            <source src="video1.mp4">
+        </video>
+    </header>
 </body>
 </html>
